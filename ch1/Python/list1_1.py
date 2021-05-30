@@ -15,6 +15,6 @@ df = diamonds.copy()
 df_color = df[['cut', 'color', 'x']].pivot_table(index='cut', columns='color', aggfunc='count')
 
 print(df.head())
-print('-----------------------------------------------------------------------------------')
+print('--------------------------------------------------------------------------')
 print(df_color)
 
